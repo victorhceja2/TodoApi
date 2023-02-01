@@ -1,0 +1,8 @@
+version: "3.4"
+services:
+  todoapi:
+    build: .
+    container_name: TodoApi
+    ports:
+      - "5001:80"
+      #- "466:465"
